@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../logo.svg">
+        </figure>
+    </header>
+    <main>
+        <div class="banner">
+            <h5>@harshitmogha</h5>
+            <div>
+                <h1 class="left">Alfa 6c Concept</h1>
+                <h1 class="right">By Max Hordin</h1>
+            </div>
+            <div id="car-model">
+                <model-viewer id="car" src="./modles/alfa_6c_concept_by_max_hordin.glb" autoplay disable-zoom auto-rotate auto-rotate-delay="0" rotation-per-second="20deg"  min-camera-orbit="auto 80deg auto"
+                max-camera-orbit="auto 80deg auto" ></model-viewer>
+            </div>
+            <h4>
+                Full High Detailed 3D Model To Explore
+                <br>V12 Engine Supercar
+            </h4>
+            <button>Order Now &#8599</button>
+
+            <canvas id="dotsCanvas"></canvas>
+        </div>
+    </main>    
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
